@@ -344,7 +344,7 @@ select {
     font-size: 13px;
   }
   .header-wrapper .logo {
-    margin-left: 0 !important;
+    margin-left: 30px !important;
   }
 
   header .contact-btn {
@@ -1220,15 +1220,27 @@ select {
   .scholarship .sorts-grants .subtitle-block .mini-subtitle {
     max-width: 170px !important;
   }
+
+  .phone-block {
+    display: block !important;
+  }
 }
 @media (max-width: 520px) {
+  .scholarship .sorts-grants .subtitle-block .subsub-title-block p {
+    font-size: 8px !important;
+  }
+
   .header-inner .content {
     width: 400px !important;
+  }
+
+  .feature .structure-block {
+    padding-top: 30px !important;
   }
 }
 @media (max-width: 495px) {
   .feature .graph-block {
-    width: 400px !important;
+    width: 100% !important;
   }
 
   .feature .graph-block .tenis-img {
@@ -1236,10 +1248,6 @@ select {
   }
 }
 @media (max-width: 485px) {
-  .feature .structure-block .main-graphs .graph-block {
-    width: 450px !important;
-  }
-
   .feature .graph-block .tenis-img {
     width: 100px !important;
   }
@@ -1250,7 +1258,7 @@ select {
   }
 
   .mediaTitle {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   .mediaSubtitle {
@@ -1261,9 +1269,41 @@ select {
     font-size: 15px !important;
   }
 }
+@media (max-width: 525px) {
+  .desktop-graph {
+    display: none !important;
+  }
+}
 @media (max-width: 420px) {
+  .mini-title-block h3 {
+    max-width: 295px !important;
+  }
+
+  .scholarship .under-blocks .subtitle-block p {
+    font-size: 10px !important;
+  }
+
+  .scholarship .sorts-grants .subtitle-block .subsub-title-block p {
+    padding: 0 26px !important;
+  }
+
+  .scholarship .under-blocks .subtitle-block .row-titles .second-block {
+    height: inherit !important;
+  }
+  .scholarship .under-blocks .subtitle-block .row-titles .second-block p {
+    font-size: 8px !important;
+  }
+
+  .feature .graph-block .full-graph .graph-phone-tab .foundament-tab .graph-stat .title-stat .players-title p {
+    font-size: 5px !important;
+  }
+
+  .join-univ .content .item-content .title {
+    max-height: 30px !important;
+  }
+
   .entrance-new .down-info h3 {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   .scholarship .content {
@@ -1275,6 +1315,16 @@ select {
   }
   .entrance-new .head-info .item p {
     padding: 8px 0 !important;
+  }
+
+  .team-project .phone-block {
+    margin-top: 10px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
   }
 }
 @media (max-width: 485px) {
@@ -1329,7 +1379,7 @@ select {
   }
 
   .feature .structure-block .main-graphs .graph-block {
-    width: 380px !important;
+    width: 100% !important;
   }
 
   .feature .structure-block .main-graphs .graph-block .tenis-img {
@@ -1483,12 +1533,18 @@ select {
 
   .scholarship .main-content .team-title h3 {
     font-size: 10px !important;
-    padding: 7px 4px !important;
+    padding: 7px 28px !important;
     color: black !important;
   }
 
   .scholarship .main-content .team-title {
     border-radius: 12px !important;
+  }
+
+  .feature .structure-block .structure-main .default-phone {
+    padding: 10px 0 15px 0 !important;
+    max-width: 290px !important;
+    margin: 0 auto !important;
   }
 
   .skills .item {
@@ -1545,8 +1601,8 @@ select {
   }
 
   .scholarship .under-blocks .subtitle-block .row-titles .subsub-title-block.second_title {
-    -webkit-transform: translateY(-24px) !important;
-            transform: translateY(-24px) !important;
+    -webkit-transform: translateY(-69px) !important;
+            transform: translateY(-69px) !important;
   }
 
   main .header-inner {
@@ -1658,7 +1714,7 @@ select {
   }
 
   .feature .structure-block .main-graphs .graph-block {
-    width: 320px !important;
+    width: 100% !important;
   }
 
   .feature .structure-main .sub-title-block {
@@ -1695,7 +1751,7 @@ select {
 
   .feature .structure-main .racket-img {
     right: 208px !important;
-    top: 160px !important;
+    top: 200px !important;
   }
 
   .scholarship .sorts-grants .main-title h3 {
@@ -2036,6 +2092,10 @@ select {
     height: 100% !important;
   }
 }
+.mediaTitle {
+  font-family: "Montserrat", sans-serif !important;
+}
+
 .phone-block {
   display: none;
 }

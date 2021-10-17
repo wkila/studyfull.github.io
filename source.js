@@ -1,21 +1,5 @@
+
 // rabotaet - ne trogai
-
-function testWebP(callback) {
-	var webP = new Image();
-	webP.onload = webP.onerror = function () {
-		callback(webP.height == 2);
-	};
-	webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
-}
-testWebP(function (support) {
-	if (support == true) {
-		document.querySelector('html').classList.add('_webp');
-	} else {
-		document.querySelector('html').classList.add('_no-webp');
-	}
-});
-
-// == MAIN SCRIPTS == //
 
 const burger = document.getElementById("burger"),
     tabMenu = document.querySelector(".tab-bar"),
@@ -55,14 +39,13 @@ window.addEventListener("scroll", coordHandler)
 
 function coordHandler(event) {
     currentPos = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop
-
     document.querySelectorAll(".link-item-header").forEach(element => {
         let href = element.getAttribute('href').substring(1)
         if (href != undefined && href != null) {
             let item = document.getElementById(href)
             if (item != null) {
                 let coord = (item.getBoundingClientRect().top).toFixed(0)
-                if (currentPos / 4 > coord && !item.classList.contains("scrolled") && coord < 50) {
+                if (currentPos / 4 > coord && !item.classList.contains("scrolled") && coord < 210) {
                     const activeLink = element
                     const widthActive = activeLink.getBoundingClientRect().width
                     
@@ -73,7 +56,7 @@ function coordHandler(event) {
                         const width = activeLink.offsetLeft - line.offsetLeft
                         line.style.transform = `translate(${width}px, 5px)`
                     }
-                }else if((coord * (-1)) < 50 && item.classList.contains("scrolled")) {
+                }else if((coord * (-1)) < 210 && item.classList.contains("scrolled")) {
                     const activeLink = element
                     const widthActive = activeLink.getBoundingClientRect().width
                     
@@ -88,10 +71,6 @@ function coordHandler(event) {
             }
         }
     })
-
-    animBlocks.forEach(element => {
-
-    }) 
 }
 
 function burgerClick(event) {
@@ -138,24 +117,27 @@ function contactHandler(event) {
 
     if (item.classList.contains("contact-btn")) {
         if (item.classList.contains("second-form-btn")) {
-            secondForm.style.display = "block"
+            secondForm.style.display = "flex"
             secondForm.classList.toggle("activeContact")
+            backgroundBlack.classList.toggle("handleActive")
             secondFormClick = true
 
         }else {
-            contactForm.style.display = "block"
+            contactForm.style.display = "flex"
             contactForm.classList.toggle("activeContact")
+            backgroundBlack.classList.toggle("handleActive")
             firstFormClick = true
         }
 
     }else if (item.classList.contains("contact-form")){
-        console.log("contact form", secondFormClick, firstFormClick)
         if (firstFormClick) {
             contactForm.classList.toggle("activeContact")
+            backgroundBlack.classList.toggle("handleActive")
             contactForm.style.display = "none"
             firstFormClick = false
         }else if(secondFormClick) {
             secondForm.classList.toggle("activeContact")
+            backgroundBlack.classList.toggle("handleActive")
             secondForm.style.display = "none"
             secondFormClick = false
         }
@@ -178,7 +160,6 @@ function switcherLine(event) {
 
 function navHandler(event) {
     event.preventDefault()
-
     let link = event.target
 
     if (link.classList.contains("link-item")) {
@@ -205,10 +186,3 @@ function slowScroll(link) {
         behavior: 'smooth'
     })
 }
-
-
-
-
-
-
-
