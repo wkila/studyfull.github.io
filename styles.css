@@ -594,6 +594,10 @@ select {
   }
 }
 @media (max-width: 770px) {
+  .margin-swiper {
+    margin: 0 auto !important;
+  }
+
   .team-project {
     display: none !important;
   }
@@ -607,7 +611,7 @@ select {
   }
 
   .swiper {
-    display: block !important;
+    visibility: visible !important;
   }
   .swiper .swiper-slide h3 {
     padding-top: 10px !important;
@@ -3479,6 +3483,9 @@ main {
   padding-left: 15px;
 }
 
+.service {
+  margin: -630px auto 0 auto;
+}
 .service .cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4044,10 +4051,14 @@ footer .line {
   color: #CA0000;
 }
 
+.phone-block-swiper {
+  visibility: hidden;
+}
+
 .swiper {
   width: 100%;
   height: 600px;
-  display: none;
+  visibility: hidden;
 }
 
 .swiper-slide {
@@ -4110,6 +4121,10 @@ footer .line {
   background-color: #CA0000;
   left: -20px;
   top: 12px;
+}
+
+.margin-swiper {
+  margin: -360px auto 0 auto;
 }
 
 .swiper-slide h3 {
