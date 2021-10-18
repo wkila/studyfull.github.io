@@ -2201,6 +2201,10 @@ select {
   font-family: "Montserrat", sans-serif !important;
 }
 
+.phone-max-width {
+  max-width: 240px;
+}
+
 .phone-block {
   display: none;
 }
@@ -2596,6 +2600,9 @@ main {
 }
 .join-univ .content .item-content .title h3 span {
   color: #CA0000;
+}
+.join-univ .content .item-content .title .phone-max-width {
+  max-width: 240px;
 }
 .join-univ .content .item-content.__one {
   background: no-repeat center url("img/students-one.png");
