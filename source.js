@@ -1,3 +1,17 @@
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    initialSlide: 0,
+    autoHeight: true,
+    centeredSlides: true,
+    slidesPerView: 1.8,
+    spaceBetween: 30,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      }
+});
 
 // rabotaet - ne trogai
 
