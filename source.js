@@ -143,7 +143,7 @@ function contactHandler(event) {
             firstFormClick = true
         }
 
-    }else if (item.classList.contains("contact-form")){
+    }else if (item.classList.contains("cross")){
         if (firstFormClick) {
             contactForm.classList.toggle("activeContact")
             backgroundBlack.classList.toggle("handleActive")

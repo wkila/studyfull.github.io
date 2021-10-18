@@ -1201,7 +1201,7 @@ select {
   }
 
   .scholarship .under-blocks .subtitle-block {
-    width: 100% !important;
+    width: 48% !important;
   }
 
   .scholarship .under-blocks .subtitle-block .row-titles .second-block {
@@ -3991,7 +3991,7 @@ footer .line {
   width: 100%;
   height: 100vh;
   left: 0;
-  z-index: 15;
+  z-index: 30;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -4064,6 +4064,37 @@ footer .line {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+}
+.contact-form form .cross {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  z-index: 1000;
+}
+.contact-form form .cross::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 30px;
+  height: 1px;
+  background-color: black;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.contact-form form .cross::after {
+  content: "";
+  top: 50%;
+  left: 0;
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background-color: black;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .contact-form form h2 {
   font-weight: 400;
