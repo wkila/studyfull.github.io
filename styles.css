@@ -97,6 +97,10 @@ select {
     max-width: 80% !important;
   }
 
+  .scholarship .sorts-grants .main-title h3 {
+    font-size: 15px !important;
+  }
+
   .header-inner {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -340,10 +344,10 @@ select {
   }
 }
 @media (max-width: 1131px) {
-  .header-wrapper nav a {
+  header nav a {
     font-size: 13px;
   }
-  .header-wrapper .logo {
+  header .logo {
     margin-left: 30px !important;
   }
 
@@ -594,6 +598,29 @@ select {
   }
 }
 @media (max-width: 770px) {
+  .skills .item p {
+    font-size: 12px !important;
+  }
+
+  .entrance-new .cards .card-consultations .default {
+    font-size: 12px !important;
+  }
+
+  .about-us p {
+    font-size: 12px !important;
+  }
+
+  footer nav .logo {
+    margin-left: 0 !important;
+  }
+
+  .feature .cards .default-img {
+    display: none !important;
+  }
+  .feature .cards .phone-block {
+    width: 100% !important;
+  }
+
   .margin-swiper {
     margin: 0 auto !important;
   }
@@ -1186,6 +1213,10 @@ select {
     width: 95% !important;
   }
 
+  footer nav .logo {
+    margin-left: 0 !important;
+  }
+
   .scholarship .main-content .team-title {
     width: 100% !important;
   }
@@ -1289,6 +1320,26 @@ select {
     font-size: 12px !important;
   }
 
+  .feature .feature-info .info-card img {
+    width: 55px !important;
+  }
+
+  .entrance-new .cards .card .head-info .item h4 {
+    font-size: 12px !important;
+  }
+
+  .entrance-new .cards .card .head-info .item p {
+    font-size: 12px !important;
+  }
+
+  .entrance-new .high-title-block p {
+    font-size: 12px !important;
+  }
+
+  .entrance-new .cards .down-info .info p {
+    padding-top: 5px !important;
+  }
+
   .mediaTitle {
     font-size: 10px !important;
   }
@@ -1305,14 +1356,38 @@ select {
   .desktop-graph {
     display: none !important;
   }
+
+  .entrance-new .high-title-block p {
+    font-size: 12px !important;
+  }
 }
 @media (max-width: 420px) {
+  .phone-max-width {
+    max-width: 130px !important;
+  }
+
+  .scholarship .sorts-grants .subtitle-block .subsub-title-block .high-title {
+    font-size: 13px !important;
+  }
+
+  .scholarship .sorts-grants .subtitle-block .subsub-title-block p {
+    font-size: 13px !important;
+  }
+
+  .scholarship p {
+    font-size: 13px !important;
+  }
+
+  .racket-img {
+    display: none;
+  }
+
   .mini-title-block h3 {
     max-width: 295px !important;
   }
 
   .scholarship .under-blocks .subtitle-block p {
-    font-size: 10px !important;
+    font-size: 13px !important;
   }
 
   .scholarship .sorts-grants .subtitle-block .subsub-title-block p {
@@ -1323,7 +1398,7 @@ select {
     height: inherit !important;
   }
   .scholarship .under-blocks .subtitle-block .row-titles .second-block p {
-    font-size: 8px !important;
+    font-size: 13px !important;
   }
 
   .feature .graph-block .full-graph .graph-phone-tab .foundament-tab .graph-stat .title-stat .players-title p {
@@ -1331,7 +1406,7 @@ select {
   }
 
   .join-univ .content .item-content .title {
-    max-height: 30px !important;
+    max-height: 50px !important;
   }
 
   .entrance-new .down-info h3 {
@@ -1427,6 +1502,7 @@ select {
   }
   .header-inner .content .typing-title {
     font-size: 20px !important;
+    max-width: 320px !important;
   }
   .header-inner .content .default-title {
     font-size: 18px;
@@ -1564,7 +1640,7 @@ select {
   }
 
   .scholarship .main-content .team-title h3 {
-    font-size: 10px !important;
+    font-size: 12px !important;
     padding: 7px 28px !important;
     color: black !important;
   }
@@ -1575,8 +1651,9 @@ select {
 
   .feature .structure-block .structure-main .default-phone {
     padding: 10px 0 15px 0 !important;
-    max-width: 290px !important;
+    max-width: 320px !important;
     margin: 0 auto !important;
+    font-size: 12px !important;
   }
 
   .skills .item {
@@ -1606,7 +1683,7 @@ select {
     background-position: left -12px top 40px !important;
   }
   .skills .item p {
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
 }
 @media (max-width: 420px) {
@@ -1633,8 +1710,8 @@ select {
   }
 
   .scholarship .under-blocks .subtitle-block .row-titles .subsub-title-block.second_title {
-    -webkit-transform: translateY(-69px) !important;
-            transform: translateY(-69px) !important;
+    -webkit-transform: translateY(-14px) !important;
+            transform: translateY(-14px) !important;
   }
 
   main .header-inner {
@@ -1659,7 +1736,7 @@ select {
   }
 
   .entrance .item h3 {
-    font-size: 10px !important;
+    font-size: 11px !important;
     font-weight: 400 !important;
     font-family: "Montserrat", sans-serif !important;
   }
@@ -1687,10 +1764,6 @@ select {
 
   .mainSection h2 {
     font-size: 20px !important;
-  }
-
-  .entrance-new .high-title-block p {
-    font-size: 10px !important;
   }
 
   .entrance-new .head-info {
@@ -1724,21 +1797,21 @@ select {
     left: 9px !important;
   }
 
-  .about-us p {
-    font-size: 10px !important;
-  }
   .about-us .sub-info {
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
   .about-us .sub-info span {
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
 
   .feature .info-card {
     width: 340px !important;
   }
+  .feature .info-card img {
+    width: 55px !important;
+  }
   .feature .info-card p {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   .header-inner .content {
@@ -1760,7 +1833,7 @@ select {
 }
 @media (max-width: 375px) {
   .entrance-new .head-info .item {
-    width: 100% !important;
+    width: 85% !important;
   }
 
   .entrance-new .cards .card .head-info .item p {
@@ -2483,6 +2556,7 @@ main {
 }
 .header-inner .card-info .default-title {
   max-width: 600px;
+  font-family: "Montserrat", sans-serif;
 }
 .header-inner .card-info .contact-btn {
   margin: 30px 0 60px 0;
@@ -3410,7 +3484,7 @@ main {
   top: -134px;
 }
 .scholarship .content .team h3 {
-  color: #053651;
+  color: #000;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -3481,6 +3555,7 @@ main {
 .entrance .content .info .item h3 {
   max-width: 555px;
   padding-left: 15px;
+  font-weight: 400;
 }
 
 .service {
@@ -3918,6 +3993,40 @@ footer .line {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.contact-form .info-form .male-block .info-male {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact-form .info-form .male-block .info-male input {
+  width: initial;
+}
+.contact-form .info-form .male-block .birthday-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.contact-form .info-form .male-block .birthday-block input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  width: 30%;
+  padding: 0;
+}
 .contact-form.activeContact {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -3959,7 +4068,7 @@ footer .line {
   color: #CA0000;
 }
 .contact-form form .info-form {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4128,7 +4237,7 @@ footer .line {
 }
 
 .swiper-slide h3 {
-  color: #053651;
+  color: #000;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 600;
@@ -4143,4 +4252,8 @@ footer .line {
   font-size: 10px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
+}
+
+input:checked {
+  background-color: #053651;
 }
