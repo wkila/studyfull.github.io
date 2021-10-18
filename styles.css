@@ -4073,6 +4073,7 @@ footer .line {
   width: 30px;
   height: 30px;
   z-index: 1000;
+  cursor: pointer;
 }
 .contact-form form .cross::before {
   content: "";
