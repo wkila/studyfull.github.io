@@ -1122,8 +1122,22 @@ select {
   }
 }
 @media (max-width: 770px) {
+  .feature .graph-block .open-graph {
+    display: none !important;
+  }
+
   .feature .structure-main .racket-img {
-    top: 220px !important;
+    top: 260px !important;
+  }
+
+  .skills .item {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .skills .item .mediaTitle {
+    margin: 0 !important;
+    padding-left: 10px !important;
   }
 
   .join-univ .content .item-content.__one .title {
@@ -1270,7 +1284,7 @@ select {
 }
 @media (max-width: 580px) {
   .mainSection {
-    padding: 0 10px !important;
+    padding: 0 15px !important;
   }
 
   .scholarship .tennis {
@@ -1425,10 +1439,6 @@ select {
 
   .scholarship p {
     font-size: 13px !important;
-  }
-
-  .racket-img {
-    display: none;
   }
 
   .mini-title-block h3 {
@@ -1783,8 +1793,8 @@ select {
   }
 
   .feature .structure-main .racket-img {
-    top: 193px !important;
-    right: 234px !important;
+    top: 198px !important;
+    right: 230px !important;
   }
 
   .scholarship .sorts-grants .subtitle-block .subsub-title-block {
@@ -1948,8 +1958,8 @@ select {
   }
 
   .feature .structure-main .racket-img {
-    right: 208px !important;
-    top: 200px !important;
+    right: 203px !important;
+    top: 190px !important;
   }
 
   .scholarship .sorts-grants .main-title h3 {
@@ -2020,9 +2030,9 @@ select {
             transform: translateY(-18px) !important;
   }
 
-  .feature .structure-main .absolute-img {
-    right: 184px !important;
-    top: 180px !important;
+  .feature .structure-main .graph-img {
+    right: 4px !important;
+    top: 330px !important;
   }
 
   .mini-title-block .line {
@@ -2103,7 +2113,7 @@ select {
   }
   .feature .structure-main .graph-img {
     right: 4px !important;
-    top: 300px !important;
+    top: 330px !important;
   }
   .feature .graphs-block {
     padding-top: 85px !important;
@@ -2157,6 +2167,17 @@ select {
   }
   .skills .item p {
     font-size: 10px !important;
+  }
+}
+@media (max-width: 320px) {
+  .feature .structure-main .graph-img {
+    right: 4px !important;
+    top: 340px !important;
+  }
+
+  .feature .structure-main .racket-img {
+    right: 172px !important;
+    top: 186px !important;
   }
 }
 .left-handler {
