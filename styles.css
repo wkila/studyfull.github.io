@@ -1389,6 +1389,12 @@ select {
   }
 }
 @media (max-width: 420px) {
+  .contact-form .info-form .male-block .info-male {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+
   .contact-form form .btn-block {
     margin-top: 10px !important;
   }
