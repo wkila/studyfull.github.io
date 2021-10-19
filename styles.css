@@ -97,6 +97,14 @@ select {
     max-width: 80% !important;
   }
 
+  .phone-block {
+    display: block !important;
+  }
+
+  .contact-form .radio-btn {
+    width: 10% !important;
+  }
+
   .scholarship .sorts-grants .main-title h3 {
     font-size: 15px !important;
   }
