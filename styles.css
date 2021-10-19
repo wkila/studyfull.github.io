@@ -1389,6 +1389,14 @@ select {
   }
 }
 @media (max-width: 420px) {
+  .contact-form form .btn-block {
+    margin-top: 10px !important;
+  }
+
+  .contact-form form .info-form .contact-name {
+    margin-top: 10px !important;
+  }
+
   .phone-max-width {
     max-width: 130px !important;
   }
