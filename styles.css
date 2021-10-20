@@ -1960,6 +1960,14 @@ select {
     left: 9px !important;
   }
 
+  .entrance-new .item {
+    flex-direction: column !important;
+  }
+
+  /* .entrance-new .head-info .item {
+    width: 97% !important;
+  } */
+
   .about-us .sub-info {
     font-size: 12px !important;
   }
@@ -1997,6 +2005,10 @@ select {
 @media (max-width: 375px) {
   .entrance-new .head-info .item {
     width: 85% !important;
+  }
+
+  .entrance-new .info .phone-block .item {
+    flex-direction: column !important;
   }
 
   .skills .item.one {
@@ -2244,6 +2256,11 @@ select {
   }
 }
 @media (max-width: 320px) {
+
+  .entrance-new .head-info .item {
+    width: 97% !important;
+  }
+
   .skills .item.one {
     background-position: left 8px top 26px !important;
     background-size: 50px !important;
