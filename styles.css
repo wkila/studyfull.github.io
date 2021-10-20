@@ -364,6 +364,10 @@ select {
   }
 }
 @media (max-width: 1200px) {
+  .header-wrapper a {
+    font-size: 14px !important;
+  }
+
   .feature .structure-block .structure-main {
     -ms-flex-wrap: nowrap !important;
         flex-wrap: nowrap !important;
@@ -440,8 +444,26 @@ select {
   .scholarship .content .main-content {
     margin-top: 80px !important;
   }
+
+  footer li {
+    padding: 0 4px !important;
+  }
 }
 @media (max-width: 1024px) {
+  .header-wrapper a {
+    font-size: 12px !important;
+  }
+
+  .feature .structure-main .racket-img {
+    max-width: 13% !important;
+    top: 217px !important;
+    right: 768px !important;
+  }
+
+  header .contact-btn {
+    font-size: 14px !important;
+  }
+
   .feature .structure-block .structure-main {
     -ms-flex-wrap: nowrap !important;
         flex-wrap: nowrap !important;
@@ -496,6 +518,13 @@ select {
 
   .scholarship .main-content .team-title {
     width: 500px !important;
+  }
+}
+@media (max-width: 1020px) {
+  .feature .structure-main .racket-img {
+    max-width: 10% !important;
+    top: 230px !important;
+    right: 670px !important;
   }
 }
 @media (max-width: 980px) {
@@ -1411,6 +1440,10 @@ select {
   }
 }
 @media (max-width: 420px) {
+  .first-form .contact-form form .info-form {
+    height: auto !important;
+  }
+
   .entrance-new .cards .card-consultations .default {
     text-align: center !important;
   }
@@ -1804,7 +1837,7 @@ select {
     font-size: 14px !important;
   }
 
-  .contact-form form .info-form {
+  .second-form form .info-form {
     overflow: scroll !important;
     height: 360px !important;
   }
