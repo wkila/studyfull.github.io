@@ -1411,6 +1411,10 @@ select {
   }
 }
 @media (max-width: 420px) {
+  .entrance-new .cards .card-consultations .default {
+    text-align: center !important;
+  }
+
   .contact-form .info-form .male-block .info-male {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
@@ -1782,6 +1786,29 @@ select {
   }
 }
 @media (max-width: 420px) {
+  .skills .item.one {
+    background-position: left 5px top 20px !important;
+    background-size: 50px !important;
+  }
+  .skills .item.two {
+    background-position: left 3px top 30px !important;
+  }
+  .skills .item.three {
+    background-position: left 1px top 45px !important;
+  }
+  .skills .item.four {
+    background-position: left -1px top 21px !important;
+  }
+
+  .about-us .content .sub-info span {
+    font-size: 14px !important;
+  }
+
+  .contact-form form .info-form {
+    overflow: scroll !important;
+    height: 360px !important;
+  }
+
   .contact-form .info-form .male-block .info-male .radio-btn {
     width: 10% !important;
   }
@@ -1937,6 +1964,20 @@ select {
 @media (max-width: 375px) {
   .entrance-new .head-info .item {
     width: 85% !important;
+  }
+
+  .skills .item.one {
+    background-position: left 8px top 33px !important;
+    background-size: 50px !important;
+  }
+  .skills .item.two {
+    background-position: left 3px top 30px !important;
+  }
+  .skills .item.three {
+    background-position: left 1px top 45px !important;
+  }
+  .skills .item.four {
+    background-position: left -1px top 35px !important;
   }
 
   .entrance-new .cards .card .head-info .item p {
@@ -2170,6 +2211,20 @@ select {
   }
 }
 @media (max-width: 320px) {
+  .skills .item.one {
+    background-position: left 8px top 26px !important;
+    background-size: 50px !important;
+  }
+  .skills .item.two {
+    background-position: left -1px top 23px !important;
+  }
+  .skills .item.three {
+    background-position: left -1px top 40px !important;
+  }
+  .skills .item.four {
+    background-position: left -2px top 30px !important;
+  }
+
   .feature .structure-main .graph-img {
     right: 4px !important;
     top: 340px !important;
@@ -3940,7 +3995,7 @@ main {
 .about-us .content .sub-info span {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   color: #053651;
 }
 
@@ -4221,7 +4276,7 @@ footer .line {
 .contact-form form h2 {
   font-weight: 400;
   font-size: 70px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
   padding: 45px 0 30px 0;
 }
 .contact-form form h2 span {
