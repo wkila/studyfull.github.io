@@ -97,6 +97,14 @@ select {
     max-width: 80% !important;
   }
 
+  .contact-form form .info-form .contact-name {
+    width: 100% !important;
+  }
+
+  .contact-form .info-form .labels {
+    width: 250px !important;
+  }
+
   .phone-block {
     display: block !important;
   }
@@ -1440,6 +1448,10 @@ select {
   }
 }
 @media (max-width: 420px) {
+  .contact-form .info-form .labels {
+    width: 100% !important;
+  }
+
   .skills .item.one {
     background-position: left 5px top 20px !important;
     background-size: 50px !important;
@@ -2276,7 +2288,7 @@ select {
   }
 
   .feature .structure-main .racket-img {
-    right: 172px !important;
+    left: 47px !important;
     top: 186px !important;
   }
 }
@@ -4221,6 +4233,30 @@ footer .line {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.contact-form .info-form .labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 300px;
+}
+.contact-form .info-form .label-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-form .info-form .label-content input {
+  width: inherit !important;
+  margin-right: 15px;
+}
 .contact-form .info-form .male-block .info-male {
   width: 300px;
   display: -webkit-box;
@@ -4351,7 +4387,8 @@ footer .line {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 15px;
+  width: 75%;
+  margin: 15px auto 0 auto;
 }
 .contact-form form .info-form .contact-name input {
   max-width: 420px;
